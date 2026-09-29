@@ -6,6 +6,8 @@ This project uses MATLAB to simulate and analyze the stability of a **nonlinear 
 
 The purpose of the project is to demonstrate how numerical simulation and Lyapunov analysis can be used together to study a nonlinear dynamical system. In particular, the program estimates the **region of attraction** of the stable downward equilibrium by simulating the pendulum from a grid of different initial angles and angular velocities.
 
+**Note: The code provided is a visualization of the basic concept outline. Further simulations and various system modelling can be built upon the primary code**
+
 The numerical results are then compared with an energy-based boundary obtained using the pendulum's mechanical energy as a Lyapunov function.
 
 ---
