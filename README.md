@@ -92,9 +92,6 @@ The result for each initial condition is stored in a matrix and displayed as a c
 
 The total mechanical energy of the pendulum relative to the downward equilibrium is used as the Lyapunov function:
 
-$$
-V(\theta,\omega)
-=
 \frac{1}{2}ml^2\omega^2
 +
 mgl(1-\cos\theta)
@@ -132,9 +129,8 @@ $$
 
 Substituting this state into the Lyapunov function gives:
 
-$$
-V(\pi,0)
-=
+
+
 mgl(1-\cos\pi)
 $$
 
